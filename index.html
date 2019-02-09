@@ -1,59 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kodemia</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-    <link rel="stylesheet" href="./style.css">
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Agencia</title>
+
 </head>
+
 <body>
-    <header>
-     <img src="logo.png" alt="xxx">
-     
-    </header>
 
-    <div id="contenedor-saludo">
+  <header>
+
+    <img src="logo.png" alt="logo" class="logo">
+
+  </header>
+
+
+
+
+
+  <div id="contenedor-saludo">
+
     <div id="eslogan">
-        La primera academia<strong>REAL</strong>para programadores
 
+        La primera academia <b>REAL</b> para programadores
 
     </div>
 
     <button>
-    
-    conoce los cursos
 
-    </button>  
-</div>
+      Conoce los cursos
 
-<section id="contenedor-descripcion">
-    <h2>
-    ¿Qué es Kodemia?
+    </button>
+
+  </div>
+
+
+
+  <section id="contenedor-descripcion">
+
+    <h2 class="titulo" id='descripcion-titulo'>
+
+      ¿Qué es Kodemia?
+
     </h2>
 
     <div class="contenido">
-    <img src=koder.jpg" alt="koder">
-    <div id="texto-uno">
-     <p>
-     Transformamos la vida de cualquier persona con experiencias
-     extremas en tecnologías de desarrollo web y móvil, activando 
-     nuevas capacidades para aventurar su talento en nuevos o mejores 
-     empleos y emprendimiento de innovación.
 
-     </p>
+      <img src="koder.jpg" alt="koder">
 
-     <p>
-    Formamos desarrolladores mexicanos mediante cursos intensivos
-    y experiencias completamente personalizadas.
+      <div id="texto-uno">
 
-     </p>
+        <p>
+
+          Transformamos la vida de cualquier persona con experiencias 
+
+          extremas en tecnologías de desarrollo web y móvil, 
+
+          activando nuevas capacidades para aventurar su talento 
+
+          en nuevos o mejores empleos y emprendimiento de innovación.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            Formamos desarrolladores mexicanos mediante cursos intensivos y experiencias 
+
+            completamente personalizadas.
+
+        </p>
+
+      </div>
 
     </div>
-    </div>
-    
-</section>
+
+  </section>
+
+
+
+  <section id="contendor-catalogo">
+
+    <h2 class="catalogo-titulo">
+
+      Cursos
+
+    </h2>
+
+    <div id="catalogo-contenido"></div>
+
+  </section>
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
